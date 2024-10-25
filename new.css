@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif;
+}
+img{
+    width: 100%;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.home-page{
+    display: block;
+}
+.header-section{
+    display: block;
+}
+.body-section{
+    display: block;
+}
+.body-section .banner-outer{
+    display: block;
+}
+.banner-inner{
+    position: relative;
+    display: block;
+}
+.body-section .banner-outer .banner-inner .banner-text{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translate(0,-10%);
+    display: block;
+}
+.body-section .banner-outer .banner-inner .banner-text span{
+    display: block;
+    font-size: 45px;
+    font-weight: 450;
+    color: white;
+    display: block;
+}
+.body-section .banner-outer .banner-inner .banner-text  strong{
+    font-size: 50px;
+    font-weight: 500;
+    color: #83b828;
+    display: block;
+}
+.body-section .banner-outer .banner-inner .banner-text p{
+    font-size: 60px;
+    font-weight: 600px;
+    display: block;
+}
+.body-section .banner-outer .banner-inner .banner-text button{
+    border: none;
+    padding: 8px 10px;
+    margin-top: 20px;
+    background-color: #83b828;
+    border-radius: 5px;
+    display: block;
+}
+.body-section .banner-outer .banner-inner .banner-text button:hover{
+    background-color: gray;
+}
+.category-outer{
+    display: block;
+}
+.continer{
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.category-inner{
+    display: block;
+}
+.block-title{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.category-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.category-item{
+    box-sizing: border-box;
+    display: block;
+    width: 20%;
+    padding: 0 15px;
+}
+.category-item-inner{
+    position: relative;
+    margin: 12px 12px;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    text-align: center;
+    transition: all 1s;
+}
+.text a{
+    display: block;
+    font-size: 25px;
+    color: white;
+}
+.text:hover{
+    transform: translateY(40px);
+}
